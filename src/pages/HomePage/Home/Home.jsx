@@ -11,11 +11,11 @@ const Home = () => {
             ></div>
 
             {/* Main content on the right */}
-            <div className="flex flex-col space-y-4 items-center justify-center w-full md:w-2/3 mt-6 md:mt-0 md:mx-8 px-4">
-                <h2 className="text-center text-3xl md:text-5xl font-bold text-black">
+            <div className="flex flex-col space-y-4 w-full md:w-2/3 mt-6 md:mt-0 md:mx-8 px-4">
+                <h2 className="text-3xl md:text-5xl font-bold text-black">
                     We are a leading sustainable-inspired, 100% export-oriented readymade garments powerhouse
                 </h2>
-                <button className="btn bg-green-700 hover:bg-green-600 text-white border-none font-bold">About Us</button>
+                <button className="btn bg-green-700 hover:bg-green-600 text-white border-none font-bold w-28">About Us</button>
             </div>
         </div>
     );
